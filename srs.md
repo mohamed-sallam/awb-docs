@@ -57,16 +57,68 @@ h5:before {
 ### System Function
 ### Constraints 
 ## System Architecture
+<!--new chapter-->
 ## Functional requirements
-### // TODO: Add Functional requirements
-## Interface requirements  
+### Phone Locking  
+The user is able to lock his phone (partially or entirely) for a customized amount of time (from 1s to 12h), or more time by displaying a warning message.
+### Whitelisting 
+Awb is a permanent minimal launcher that allows only useful apps during the detoxing period while locking other time-wasting apps.
+### Detox Schedule
+the Detoxing periods can be Scheduled (daily and weekly)
+and it can be repeated.
+### Flexibility
+Awb is a tool (flexible to some extent) to help users be wise and careful with their time, so a special warning is displayed for important (built-in) applications (except settings app) and user can add/remove from this group.
+
+### App Grouping
+user can create A group of apps with a name to be treated as one app (in usage time) i.e., social media apps, studying apps ...etc.
+
+### Synchronization
+User can Lock all synchronized devices with only one click.
+### Allow users to change wallpaper
+The program is an App launcher like others but with Digital Detoxing features
+### Group therapy 
+Allow a group of users to be the observers of one another, the individual Access is monitored by the group for each one in this group, so each User has a partner to help him throughout his detoxing journey.
+//
+## Interface Requirements
 ### User interfaces
+- UI: Figma
+- UX: simple and minimal
 ### Software Interfaces
+Database access will be wrapped through Object Relation Mapping Framework (JDBC Framework)
 ### Communications Interfaces 
+#### Database Communication
+- Application-Database communication will be through TCP/IP Communication on port 1433.
+- client will access the server through HTTPS protocol 
+<!--new chapter-->
 ## Non-functional requirements 
-### Availability
-### Security
-### Safety
+### General 
+#### Reliability
+Impossible to break the lock even if you restart the phone unlike the other apps so we made it an apps launcher 
+#### High Performance 
+- low Response Time
+- Lightweight, fast and minimal
+#### Security
+<!---OL--->
+ 1. Awb does not collect any data, even metadata, about you in any way with or without your consent.
+ 1. the Exchange of Data between server and user is minimal 
+1. database cannot capture anything used to control devices.
+1. public and private keys are used in QR code form to provide user Authentication 
+
+1. HTTPS protocol is used in the exchange of data between client and server which provides a layer of protection through Encryption and Authentication    
+#### free and opensource
+a free and open-source launcher with no Ads presented
+so any contributor can review, edit or redistribute the source code and report bugs and security threats if any.
+### Technologies
+
+- Build Tool for Java: Gradle
+- Unit Test for Java: JUnit & Mockito 
+- Spring Boot for Server-Side Logic
+- Client-Server Communication: REST APIs
+- Database: PostgreSQL vs MySQL
+<!--yousef:evaluation-->
+- Build Tool for Qt C++: CMake
+- Unit Test for Qt C++: QtTest, GoogleTest or CppUnit <!--evaluation-->
+<!--new chapter-->
 ## System Models and Diagrams 
 ## System Evolution
 ## Time Plan
