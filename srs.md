@@ -81,7 +81,8 @@ Awb supports collaborative work.
     - Talking about acronyms and abbreviatinos.
 ## Glossary  
 ### Acronyms, definitions, and abbreviations
-
+**UI**: User interface.
+**UX**: User experience.
 ## System Users
 ### System stakeholders
 ### Users objectives 
