@@ -42,8 +42,18 @@ h5:before {
 
 ## Preface
 ### Document Purpose
-### Target Users 
+The main purpose of this document to provide details, specifications and requirements of our Digital Detoxing App (AWB).
+The document will provide an overview of the system in the first section; then each part will be explained in detail.
+### Target Users
+- Anyone who abuses the phone or the computer and wants to limit that with the pre-commitment strategy.
+- Anyone wants to quit social media apps.
+- Anyone who needs to track and control applications usage.
+- No gender or age restrictions, as long as you have the intention to limit your digital usage, so AWB is for you.
 ### Revision History
+Version | Author | Description | Data
+-------------|--------------|-------------|-------------
+|0.1.0 | whole team | initial | 14-10-2022
+
 ## Introduction
 ### Purpose
 ### Scope  
