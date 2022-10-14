@@ -69,6 +69,8 @@ h5:before {
 ### Safety
 ## System Models and Diagrams 
 ## System Evolution
+-  The application shall works on new versions of OSs (Unix, Android and Windows).
+-  The application shall run on new versions of hardware devices.
 ## Time Plan
 ### Work Breakdown Structure  
 ### Gantt chart  
