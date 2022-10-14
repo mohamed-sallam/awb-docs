@@ -58,19 +58,7 @@ h5:before {
 ### Constraints 
 ## System Architecture
 ## Functional requirements
-### Add a new student 
-### Edit Student 
-### View student
-### Search for a student 
-### Generate Reports for the student 
-### View Student Payments 
-### Add Payment 
-### Add departments’ desires
-### Edit student’s department desires
-### Add Employee  
-### Edit Employee  
-### Edit Employee’s Job description  
-### Delete Employee
+### // TODO: Add Functional requirements
 ## Interface requirements  
 ### User interfaces
 ### Software Interfaces
