@@ -1,0 +1,262 @@
+<style type="text/css">
+body {
+    counter-reset: figcaption;
+    counter-reset: h2
+}
+
+center figure figcaption {
+    counter-increment: figcaption;
+}
+
+h2 {
+    counter-reset: h3
+}
+
+h3 {
+    counter-reset: h4
+}
+
+h4 {
+    counter-reset: h5
+}
+
+h2:before {
+    counter-increment: h2;
+    content: counter(h2) ". "
+}
+
+h3:before {
+    counter-increment: h3;
+    content: counter(h2) "." counter(h3) ". "
+}
+
+h4:before {
+    counter-increment: h4;
+    content: counter(h2) "." counter(h3) "." counter(h4) ". "
+}
+
+h5:before {
+    counter-increment: h5;
+    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
+}
+
+figcaption:before {
+    font-style: italic;
+    font-weight: bold;
+    content: "Figure " counter(figcaption)
+}
+
+img {
+    max-height: 100%;
+    height: 250px;
+}
+</style>
+
+# <center>Software Requirements Specification for Digital Detoxing Application</center>
+###### <center>Abdalrhman M. Hemida, Mohamed M. Sallam, Mohamed Sherif, Mohamed Yehia, Yousef Ahmed</center>
+
+
+## Preface
+### Document Purpose
+### Target Users 
+### Revision History
+## Introduction
+### Purpose
+### Scope  
+### Overview  
+## Glossary  
+### Acronyms, definitions, and abbreviations 
+## System Users
+### System stakeholders
+#### FOSS Contributors
+- Responsible for reporting bugs and security threats.
+- Responsible for cleaning and maintaining the code for the FOSS community.
+- Responsible for adding, removing, and modifying the source code.
+- Responsible for redistributing the code base.
+#### App Users
+- Responsible for using the app features to quit digital addiction.
+- Responsible for reporting bugs and requesting new features.
+#### Software Engineering Team
+- Responsible for creating the first version of the app.
+- Responsible for the development of the app.
+- Responsible for writing the first version of the SRS document.
+- Responsible for almost what Contributors do.
+
+### Users objectives
+#### FOSS Contributors
+- Gain experience in studying, reading, modifying, or cleaning the source code.
+- Are allowed to distribute the code base to fit their needs.
+- Have a good portfolio for employment.
+#### App Users
+- Have quality time with their family and friends.
+- Have a life.
+- Quit all forms of digital addiction.
+- Have much time to accomplish their life goals.
+#### Software Engineering Team
+- Gain experience in architecting, designing, coding, documenting, and testing a real-life project in an Agile environment.
+- Gain experience in using mainstream industrial technologies (mentioned in section 9.2).
+- Have a good portfolio for employment.
+- Gain teamwork, self-learning, and presentation skills.
+
+## User Requirements Definition
+### System functions
+1. Phone locking
+2. Whitelisting
+3. Detox schedule
+4. Flexibility
+5. App grouping
+6. Devices synchronization
+7. Allow user to change wallpaper
+8. Group therapy
+
+### Constraints
+#### Cultural constraints
+- All code must follow team standards.
+- Version control workflow must follow team convention.
+- The team must create -at least- automated tests for the Android app.
+
+#### Hardware limitations
+- The app should work on older Android versions properly.
+- The app should be able to run on Android TVs.
+- The app should work on older PCs.
+- No Apple ecosystem support.
+## System Architecture
+<center>
+    <figure class="image">
+        <img src="imgs/SystemArchitecture.png">
+        <figcaption>
+                System Architecture
+        </figcaption>
+    </figure>
+</center>
+
+<!--new chapter-->
+## Functional requirements
+### Phone locking  
+User can lock his phone (partially or entirely) for a customized amount of time (from 1s to 12h), or more time by accepting a confirmation message.
+### Whitelisting 
+User can allow useful app during the detoxing period while locking other time-wasting apps.
+### Detox schedule
+User can schedule his detoxing periods,and here the user story:
+1. User enters a period of time (e.g., from 11pm to 8am).
+1. User chooses how many times he want that detoxing period to be repeated, he can make it daily or weekly.
+1. User chooses the apps to lock from his app groups, he created before, or create a custom group.
+1. User chooses the devices to lock and choose thier app groups, he wants to block.
+### Flexibility
+Awb is a tool (flexible to some extent) to help users be wise and careful with their time, so a special warning is displayed for important (built-in) applications (except settings app) and user can add/remove from this group.
+
+### App grouping
+User can create a group of apps with a name to be treated as one app (in usage time) i.e., social media apps, studying apps ... etc.
+
+### Synchronization
+User can lock all synchronized devices with only one click.
+### Allow users to change wallpaper
+The program is an Apps launcher like others but with Digital Detoxing features, so we allow user to change his wallpaper.
+### Group therapy 
+Allow a group of users to be the observers of one another, the individual access is monitored by the group for each one in this group, so each User has a partner to help him throughout his detoxing journey.
+## Interface Requirements
+### User interfaces
+- UI: Figma.
+- UX: simple and minimal.
+<center>
+    <figure class="image">
+        <img src="imgs/1.jpg">
+        <figcaption>
+                User enters the detoxing period
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/2.jpg">
+        <figcaption>
+                User selecting useful apps
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/3.jpg">
+        <figcaption>
+                User search about an app
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/4.jpg">
+        <figcaption>
+                User satisfied with his choice
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/5.jpg">
+        <figcaption>
+                Launcher countdown
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/3.png">
+        <figcaption>
+                Minimal launcher with wallpaper
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/4.png">
+        <figcaption>
+                Minimal launcher with easy-to-use navigator
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/unnamed.png">
+        <figcaption>
+                Minimal launcher with easy-to-use navigator
+        </figcaption>
+    </figure>
+</center>
+
+### Software interfaces
+Database access will be wrapped through Object Relation Mapping Framework (JDBC Framework).
+### Communications interfaces 
+#### Database communication
+- Application-Database communication will be through TCP/IP Communication on port 1433.
+- Client will access the server through HTTPS protocol. 
+<!--new chapter-->
+## Non-functional Requirements 
+### General 
+#### Reliability
+Impossible to break the lock even if you restart the phone unlike the other apps so we made it an apps launcher. 
+#### High performance 
+- Low response time
+- Lightweight, fast and minimal
+#### Security 
+<!---OL---> 
+1. Awb does not collect any data, even metadata, about you in any way with or without your consent.
+1. The exchange of data between server and user is minimal.
+1. Database cannot capture anything used to control devices.
+1. Public and private keys are used in QR code form to provide user authentication. 
+1. HTTPS protocol is used in the exchange of data between client and server which provides a layer of protection through encryption and authentication.    
+#### Free and open-source
+A free and open-source launcher with no Ads presented so any contributor can review, edit or redistribute the source code and report bugs and security threats if any.
+### Technologies
+- Build Tool for Java: Gradle
+- Unit Test for Java: JUnit & Mockito 
+- Spring Boot for Server-Side Logic
+- Client-Server Communication: REST APIs
+- Database: PostgreSQL vs MySQL <!--yousef:evaluation-->
+- Build Tool for Qt C++: CMake
+- Unit Test for Qt C++: QtTest, GoogleTest or CppUnit <!--evaluation-->
+<!--new chapter-->
+## System Models and Diagrams 
+## System Evolution
+## Time Plan
+### Work Breakdown Structure  
+### Gantt chart  
