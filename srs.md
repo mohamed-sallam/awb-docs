@@ -115,6 +115,8 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 <!--new chapter-->
 ## System Models and Diagrams 
 ## System Evolution
+-  The application shall works on new versions of OSs (Unix, Android and Windows).
+-  The application shall run on new versions of hardware devices.
 ## Time Plan
 ### Work Breakdown Structure  
 ### Gantt chart  
