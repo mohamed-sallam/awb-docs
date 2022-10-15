@@ -1,6 +1,11 @@
 <style type="text/css">
 body {
+    counter-reset: figcaption;
     counter-reset: h2
+}
+
+center figure figcaption {
+    counter-increment: figcaption;
 }
 
 h2 {
@@ -36,10 +41,14 @@ h5:before {
 }
 
 figcaption:before {
-    counter-increment: figcaption;
     font-style: italic;
     font-weight: bold;
     content: "Figure " counter(figcaption)
+}
+
+img {
+    max-height: 100%;
+    height: 250px;
 }
 </style>
 
@@ -77,16 +86,16 @@ figcaption:before {
 #### FOSS Contributors
 - Gain experience in studying, reading, modifying, or cleaning the source code.
 - Are allowed to distribute the code base to fit their needs.
-- Have a good portfolio for getting jobs.
+- Have a good portfolio for employment.
 #### App Users
 - Have quality time with their family and friends.
 - Have a life.
 - Quit all forms of digital addiction.
-- Have much time to do their goals in life.
+- Have much time to accomplish their life goals.
 #### Software Engineering Team
 - Gain experience in architecting, designing, coding, documenting, and testing a real-life project in an Agile environment.
-- Gain experience in using mainstream industrial technologies (mentioned in section @#$%&).
-- Have a good portfolio for getting jobs.
+- Gain experience in using mainstream industrial technologies (mentioned in section 9.2).
+- Have a good portfolio for employment.
 - Gain teamwork, self-learning, and presentation skills.
 
 ## User Requirements Definition
@@ -121,16 +130,131 @@ figcaption:before {
     </figure>
 </center>
 
+<!--new chapter-->
 ## Functional requirements
-### // TODO: Add Functional requirements
-## Interface requirements  
+### Phone locking  
+User can lock his phone (partially or entirely) for a customized amount of time (from 1s to 12h), or more time by accepting a confirmation message.
+### Whitelisting 
+User can allow useful app during the detoxing period while locking other time-wasting apps.
+### Detox schedule
+User can schedule his detoxing periods,and here the user story:
+1. User enters a period of time (e.g., from 11pm to 8am).
+1. User chooses how many times he want that detoxing period to be repeated, he can make it daily or weekly.
+1. User chooses the apps to lock from his app groups, he created before, or create a custom group.
+1. User chooses the devices to lock and choose thier app groups, he wants to block.
+### Flexibility
+Awb is a tool (flexible to some extent) to help users be wise and careful with their time, so a special warning is displayed for important (built-in) applications (except settings app) and user can add/remove from this group.
+
+### App grouping
+User can create a group of apps with a name to be treated as one app (in usage time) i.e., social media apps, studying apps ... etc.
+
+### Synchronization
+User can lock all synchronized devices with only one click.
+### Allow users to change wallpaper
+The program is an Apps launcher like others but with Digital Detoxing features, so we allow user to change his wallpaper.
+### Group therapy 
+Allow a group of users to be the observers of one another, the individual access is monitored by the group for each one in this group, so each User has a partner to help him throughout his detoxing journey.
+## Interface Requirements
 ### User interfaces
-### Software Interfaces
-### Communications Interfaces 
-## Non-functional requirements 
-### Availability
-### Security
-### Safety
+- UI: Figma.
+- UX: simple and minimal.
+<center>
+    <figure class="image">
+        <img src="imgs/1.jpg">
+        <figcaption>
+                User enters the detoxing period
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/2.jpg">
+        <figcaption>
+                User selecting useful apps
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/3.jpg">
+        <figcaption>
+                User search about an app
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/4.jpg">
+        <figcaption>
+                User satisfied with his choice
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/5.jpg">
+        <figcaption>
+                Launcher countdown
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/3.png">
+        <figcaption>
+                Minimal launcher with wallpaper
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/4.png">
+        <figcaption>
+                Minimal launcher with easy-to-use navigator
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/unnamed.png">
+        <figcaption>
+                Minimal launcher with easy-to-use navigator
+        </figcaption>
+    </figure>
+</center>
+
+### Software interfaces
+Database access will be wrapped through Object Relation Mapping Framework (JDBC Framework).
+### Communications interfaces 
+#### Database communication
+- Application-Database communication will be through TCP/IP Communication on port 1433.
+- Client will access the server through HTTPS protocol. 
+<!--new chapter-->
+## Non-functional Requirements 
+### General 
+#### Reliability
+Impossible to break the lock even if you restart the phone unlike the other apps so we made it an apps launcher. 
+#### High performance 
+- Low response time
+- Lightweight, fast and minimal
+#### Security 
+<!---OL---> 
+1. Awb does not collect any data, even metadata, about you in any way with or without your consent.
+1. The exchange of data between server and user is minimal.
+1. Database cannot capture anything used to control devices.
+1. Public and private keys are used in QR code form to provide user authentication. 
+1. HTTPS protocol is used in the exchange of data between client and server which provides a layer of protection through encryption and authentication.    
+#### Free and open-source
+A free and open-source launcher with no Ads presented so any contributor can review, edit or redistribute the source code and report bugs and security threats if any.
+### Technologies
+- Build Tool for Java: Gradle
+- Unit Test for Java: JUnit & Mockito 
+- Spring Boot for Server-Side Logic
+- Client-Server Communication: REST APIs
+- Database: PostgreSQL vs MySQL <!--yousef:evaluation-->
+- Build Tool for Qt C++: CMake
+- Unit Test for Qt C++: QtTest, GoogleTest or CppUnit <!--evaluation-->
+<!--new chapter-->
 ## System Models and Diagrams 
 ## System Evolution
 ## Time Plan
