@@ -60,7 +60,7 @@ h5:before {
 <!--new chapter-->
 ## Functional requirements
 ### Phone Locking  
-The user is able to lock his phone (partially or entirely) for a customized amount of time (from 1s to 12h), or more time by displaying a warning message.
+The user can lock his phone (partially or entirely) for a customized amount of time (from 1s to 12h), or more time by displaying a warning message.
 ### Whitelisting 
 Awb is a permanent minimal launcher that allows only useful apps during the detoxing period while locking other time-wasting apps.
 ### Detox Schedule
@@ -79,10 +79,10 @@ The program is an App launcher like others but with Digital Detoxing features.
 Allow a group of users to be the observers of one another, the individual Access is monitored by the group for each one in this group, so each User has a partner to help him throughout his detoxing journey.
 ## Interface Requirements
 ### User interfaces
-- UI: Figma
-- UX: simple and minimal
+- UI: Figma.
+- UX: simple and minimal.
 ### Software Interfaces
-Database access will be wrapped through Object Relation Mapping Framework (JDBC Framework)
+Database access will be wrapped through Object Relation Mapping Framework (JDBC Framework).
 ### Communications Interfaces 
 #### Database Communication
 - Application-Database communication will be through TCP/IP Communication on port 1433.
