@@ -42,7 +42,7 @@ h5:before {
 
 ## Preface
 ### Document Purpose
-The main purpose of this document to provide details, specifications and requirements of our Digital Detoxing App (Awb).
+The main purpose of this document is to provide details, specifications ,and requirements for our Digital Detoxing App (Awb).
 The document will provide an overview of the system in the first section; then each part will be explained in detail.
 ### Target Users
 - Anyone who abuses the phone or the computer and wants to limit that with the pre-commitment strategy.
@@ -56,8 +56,7 @@ Version | Author | Description | Data
 
 ## Introduction
 ### Purpose
-Awb works with your self-control with the pre-commitment strategy; If the soul is
-like a baby, as Imam Al-Busairi -may God have mercy on him- said:
+Awb works with your self-control with the pre-commitment strategy; If the soul is like a baby, as Imam Al-Busairi -may God have mercy on him- said:
 >“The soul is like a baby, if you neglect him, he will grow in love with
 breastfeeding, and if you wean him, he will be weaned”.
 >
@@ -68,21 +67,21 @@ Awb aims to limit your digital usage to help you achieve the following:
 - Helping others to quit smartphone addiction.
 
 ### Scope 
-Awb is open-source software for detoxing, it helps to quit digital applications addiction whether they are social media apps or games.
-Awb provides users to lock their applications for some time by restricting them and also provides us with scheduling to schedule our lockers.
-Awb supports collaborative work.
+Awb is open-source software for detoxing, it helps to quit digital applications addiction whether they are social media apps or games usually. Awb provides users to lock their applications for some time by restricting them and also provides us with scheduling to schedule our lockers. Awb supports collaborative work.
 
 ### Overview  
-- Section 1
+This document is organized as follows: first, an overview description of (AWb) application and the big picture of our applicatino is presented in (sections 2.1 and 2.2). Section 3 illustrates the definitions, abbreviations, and acronyms. Section 4 states the type of users who can use Awb. 
+<!-- - Section 1
     - Descripe what SRS is for, who use our system and version of our project.
 - Section 2
     - Our system's aims, a brief of our achievements by Awb, and list our goals then explain our structre.
 - Section 3
-    - Talking about acronyms and abbreviatinos.
+    - Talking about acronyms and abbreviatinos. -->
 ## Glossary  
 ### Acronyms, definitions, and abbreviations
 **UI**: User interface.
 **UX**: User experience.
+**API**: Application user interface.
 ## System Users
 ### System stakeholders
 ### Users objectives 
