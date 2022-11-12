@@ -4,7 +4,7 @@ body {
     counter-reset: h2
 }
 
-center figure figcaption {
+center figure figcaption:before {
     counter-increment: figcaption;
 }
 
@@ -40,7 +40,7 @@ h5:before {
     content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
 }
 
-figcaption:before {
+center figure figcaption {
     font-style: italic;
     font-weight: bold;
     content: "Figure " counter(figcaption)
@@ -57,15 +57,50 @@ img {
 
 
 ## Preface
-### Document Purpose
-### Target Users 
-### Revision History
+### Document purpose
+The main purpose of this document is to provide details, specifications ,and requirements for our Digital Detoxing App (Awb).
+The document will provide an overview of the system in the first section; then each part will be explained in detail.
+### Target users
+- Anyone who abuses the phone or the computer and wants to limit that with the pre-commitment strategy.
+- Anyone wants to quit social media apps.
+- Anyone who needs to track and control applications usage.
+- No gender or age restrictions, as long as you have the intention to limit your digital usage, so Awb is for you.
+### Revision history
+Version | Author | Description | Data
+-------------|--------------|-------------|-------------
+|0.1.0 | whole team | initial | 14-10-2022
+
 ## Introduction
 ### Purpose
-### Scope  
+Awb works with your self-control with the pre-commitment strategy; If the soul is like a baby, as Imam Al-Busairi -may God have mercy on him- said:
+>“The soul is like a baby, if you neglect him, he will grow in love with
+breastfeeding, and if you wean him, he will be weaned”.
+>
+Awb aims to limit your digital usage to help you achieve the following:
+- Minimize the use of social media applications.
+- Track and control your phone usage.
+- Lock the phone for some time (from 1s to 12h) or more.
+- Helping others to quit smartphone addiction.
+
+### Scope 
+Awb is open-source software for detoxing, it helps to quit digital applications addiction whether they are social media apps or games usually. Awb provides users to lock their applications for some time by restricting them and also provides us with scheduling to schedule our lockers. Awb supports collaborative work.
+
 ### Overview  
+This document is organized as follows: first, an overview description of (AWb) application and the big picture of our applicatino is presented in (sections 2.1 and 2.2). Section 3 illustrates the definitions, abbreviations, and acronyms. Section 4 states the type of users who can use Awb. 
+<!-- - Section 1
+    - Descripe what SRS is for, who use our system and version of our project.
+- Section 2
+    - Our system's aims, a brief of our achievements by Awb, and list our goals then explain our structre.
+- Section 3
+    - Talking about acronyms and abbreviatinos. -->
 ## Glossary  
-### Acronyms, definitions, and abbreviations 
+### Acronyms, definitions, and abbreviations
+- **UI**: User interface
+- **UX**: User experience
+- **API**: Application user interface
+- **FOSS**: Free and Open-Source Software
+- **Team**: The authors of v1 of the SRS document.
+- **Awb**: An Arabic word means "reboot/quiting", "آبَ إيابًا فهو أواب وهي أوابة وذلك أوبٌ حميد".
 ## System Users
 ### System stakeholders
 #### FOSS Contributors
@@ -256,7 +291,17 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 - Unit Test for Qt C++: QtTest, GoogleTest or CppUnit <!--evaluation-->
 <!--new chapter-->
 ## System Models and Diagrams 
+<center>
+    <figure class="image">
+        <img src="imgs/CRC.png">
+        <figcaption>
+                CRC Cards
+        </figcaption>
+    </figure>
+</center>
 ## System Evolution
+- The application shall work on new versions of OSs (Unix, Android and Windows).
+- The application shall run on new versions of hardware devices. 
 ## Time Plan
-### Work Breakdown Structure  
-### Gantt chart  
+### Work breakdown structure  
+### Gantt chart
