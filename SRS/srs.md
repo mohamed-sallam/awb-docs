@@ -315,6 +315,15 @@ A free and open-source launcher with no Ads presented so any contributor can rev
         </figcaption>
     </figure>
 </center>
+<center>
+    <figure class="image">
+        <img src="imgs/Client_ERD.png">
+        <figcaption>
+                Client-Side ERD
+        </figcaption>
+    </figure>
+</center>
+
 ## System Evolution
 - The application shall work on new versions of OSs (Unix, Android and Windows).
 - The application shall run on new versions of hardware devices. 
