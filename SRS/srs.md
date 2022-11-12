@@ -69,6 +69,9 @@ The document will provide an overview of the system in the first section; then e
 Version | Author | Description | Data
 -------------|--------------|-------------|-------------
 |0.1.0 | whole team | initial | 14-10-2022
+|0.1.1 | whole team | CRC Cards | 29-10-2022
+|0.1.2 | whole team | Class Diagram | 11-11-2022
+|0.1.3 | whole team | Server/Client ERDs | 12-11-2022
 
 ## Introduction
 ### Purpose
