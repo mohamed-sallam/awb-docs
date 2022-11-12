@@ -61,10 +61,14 @@ img {
 The main purpose of this document is to provide details, specifications ,and requirements for our Digital Detoxing App (Awb).
 The document will provide an overview of the system in the first section; then each part will be explained in detail.
 ### Target users
-- Anyone who abuses the phone or the computer and wants to limit that with the pre-commitment strategy.
-- Anyone wants to quit social media apps.
-- Anyone who needs to track and control applications usage.
-- No gender or age restrictions, as long as you have the intention to limit your digital usage, so Awb is for you.
+- As long as our application is open source, our target users include:
+    - Supervisor
+        - To check whether our system meets our needs or not.
+        - Confirm what was agreed upon.
+    - Developers
+        - Whether they are on a team project or contributors.
+    - Testers
+        - Use SRS to develop validation tests for the system.
 ### Revision history
 Version | Author | Description | Data
 -------------|--------------|-------------|-------------
