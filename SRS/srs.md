@@ -293,6 +293,14 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 ## System Models and Diagrams 
 <center>
     <figure class="image">
+        <img src="imgs/CRC.png">
+        <figcaption>
+                CRC Cards
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
         <img src="imgs/awb_class_diagram.png">
         <figcaption>
                 Class Diagram
@@ -304,4 +312,5 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 - The application shall run on new versions of hardware devices. 
 ## Time Plan
 ### Work breakdown structure  
-### Gantt chart 
+### Gantt chart
+
