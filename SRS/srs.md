@@ -300,6 +300,14 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 ## System Models and Diagrams 
 <center>
     <figure class="image">
+        <img src="imgs/Use-Case Diagram.jpg">
+        <figcaption>
+                Use-Case Diagram
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
         <img src="imgs/CRC.png">
         <figcaption>
                 CRC Cards
