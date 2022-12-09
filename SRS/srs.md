@@ -300,9 +300,17 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 ## System Models and Diagrams 
 <center>
     <figure class="image">
+        <img src="imgs/Use-Case Diagram.jpg">
+        <figcaption>
+                Use-Case Diagram
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
         <img src="imgs/DFD-Data Flow Diagram Level 0.drawio.png">
         <figcaption>
-                DFD Context | Level 0
+                DFD Level 0 | Context Diagram
         </figcaption>
     </figure>
 </center>
