@@ -308,6 +308,30 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 </center>
 <center>
     <figure class="image">
+        <img src="imgs/DFD-Data Flow Diagram Level 0.drawio.png">
+        <figcaption>
+                DFD Level 0 | Context Diagram
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/DFD-Data Flow Diagram Level 1.drawio.png">
+        <figcaption>
+                DFD Level 1
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/DFD-Data Flow Diagram Level 2.drawio.png">
+        <figcaption>
+                DFD Level 2
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
         <img src="imgs/CRC.png">
         <figcaption>
                 CRC Cards
@@ -338,7 +362,6 @@ A free and open-source launcher with no Ads presented so any contributor can rev
         </figcaption>
     </figure>
 </center>
-
 ## System Evolution
 - The application shall work on new versions of OSs (Unix, Android and Windows).
 - The application shall run on new versions of hardware devices. 
