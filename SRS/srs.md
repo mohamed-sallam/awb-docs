@@ -300,9 +300,25 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 ## System Models and Diagrams 
 <center>
     <figure class="image">
-        <img src="imgs/Use-Case Diagram.jpg">
+        <img src="imgs/DFD-Data Flow Diagram Level 0.drawio.png">
         <figcaption>
-                Use-Case Diagram
+                DFD Context | Level 0
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/DFD-Data Flow Diagram Level 1.drawio.png">
+        <figcaption>
+                DFD Level 1
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/DFD-Data Flow Diagram Level 2.drawio.png">
+        <figcaption>
+                DFD Level 2
         </figcaption>
     </figure>
 </center>
@@ -335,30 +351,6 @@ A free and open-source launcher with no Ads presented so any contributor can rev
         <img src="imgs/Client_ERD.png">
         <figcaption>
                 Client-Side ERD
-        </figcaption>
-    </figure>
-</center>
-<center>
-    <figure class="image">
-        <img src="imgs/DFD-Data Flow Diagram Level 0.drawio.png">
-        <figcaption>
-                DFD Context | Level 0
-        </figcaption>
-    </figure>
-</center>
-<center>
-    <figure class="image">
-        <img src="imgs/DFD-Data Flow Diagram Level 1.drawio.png">
-        <figcaption>
-                DFD Level 1
-        </figcaption>
-    </figure>
-</center>
-<center>
-    <figure class="image">
-        <img src="imgs/DFD-Data Flow Diagram Level 2.drawio.png">
-        <figcaption>
-                DFD Level 2
         </figcaption>
     </figure>
 </center>
