@@ -58,7 +58,7 @@ img {
 
 ## Preface
 ### Document purpose
-The main purpose of this document is to provide details, specifications ,and requirements for our Digital Detoxing App (Awb).
+The main purpose of this document is to provide details, specifications ,and requirements for our Digital Detoxing App **Awb**.
 The document will provide an overview of the system in the first section; then each part will be explained in detail.
 ### Target users
 - As long as our application is open source, our target users include:
@@ -84,25 +84,25 @@ Version | Author | Description | Data
 
 ## Introduction
 ### Purpose
-Awb works with your self-control with the pre-commitment strategy; If the soul is like a baby, as Imam Al-Busairi -may God have mercy on him- said:
+**Awb** works with your self-control with the pre-commitment strategy; If the soul is like a baby, as Imam Al-Busairi -may God have mercy on him- said:
 >“The soul is like a baby, if you neglect him, he will grow in love with
 breastfeeding, and if you wean him, he will be weaned”.
 >
-Awb aims to limit your digital usage to help you achieve the following:
+**Awb** aims to limit your digital usage to help you achieve the following:
 - Minimize the use of social media applications.
 - Track and control your phone usage.
-- Lock the phone for some time (from 1s to 12h) or more.
+- Lock the phone for some time (from 1m to 24h) or more.
 - Helping others to quit smartphone addiction.
 
 ### Scope 
-Awb is open-source software for detoxing, it helps to quit digital applications addiction whether they are social media apps or games usually. Awb provides users to lock their applications for some time by restricting them and also provides us with scheduling to schedule our lockers. Awb supports collaborative work.
+**Awb** is open-source software for detoxing, it helps to quit digital applications addiction whether they are social media apps or games usually. **Awb** provides users to lock their applications for some time by restricting them and also provides us with scheduling to schedule our lockers.
 
 ### Overview  
-This document is organized as follows: first, an overview description of (AWb) application and the big picture of our applicatino is presented in (sections 2.1 and 2.2). Section 3 illustrates the definitions, abbreviations, and acronyms. Section 4 states the type of users who can use Awb. 
+This document is organized as follows: first, an overview description of **Awb** application and the big picture of our applicatino is presented in (sections 2.1 and 2.2). Section 3 illustrates the definitions, abbreviations, and acronyms. Section 4 states the type of users who can use **Awb**. 
 <!-- - Section 1
     - Descripe what SRS is for, who use our system and version of our project.
 - Section 2
-    - Our system's aims, a brief of our achievements by Awb, and list our goals then explain our structre.
+    - Our system's aims, a brief of our achievements by **Awb**, and list our goals then explain our structre.
 - Section 3
     - Talking about acronyms and abbreviatinos. -->
 ## Glossary  
@@ -150,11 +150,11 @@ This document is organized as follows: first, an overview description of (AWb) a
 1. Phone locking
 2. Whitelisting
 3. Detox schedule
-4. Flexibility
-5. App grouping
-6. Devices synchronization
-7. Allow user to change wallpaper
-8. Group therapy
+4. Detox repetition
+5. Flexibility
+6. App grouping
+7. Devices synchronization
+
 
 ### Constraints
 #### Cultural constraints
@@ -190,7 +190,7 @@ User can schedule his detoxing periods,and here the user story:
 1. User chooses the apps to lock from his app groups, he created before, or create a custom group.
 1. User chooses the devices to lock and choose thier app groups, he wants to block.
 ### Flexibility
-Awb is a tool (flexible to some extent) to help users be wise and careful with their time, so a special warning is displayed for important (built-in) applications (except settings app) and user can add/remove from this group.
+**Awb** is a tool (flexible to some extent) to help users be wise and careful with their time, so a special warning is displayed for important (built-in) applications (except settings app) and user can add/remove from this group.
 
 ### App grouping
 User can create a group of apps with a name to be treated as one app (in usage time) i.e., social media apps, studying apps ... etc.
@@ -286,7 +286,7 @@ Impossible to break the lock even if you restart the phone unlike the other apps
 - Lightweight, fast and minimal
 #### Security 
 <!---OL---> 
-1. Awb does not collect any data, even metadata, about you in any way with or without your consent.
+1. **Awb** does not collect any data, even metadata, about you in any way with or without your consent.
 1. The exchange of data between server and user is minimal.
 1. Database cannot capture anything used to control devices.
 1. Public and private keys are used in QR code form to provide user authentication. 
