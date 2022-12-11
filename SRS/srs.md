@@ -69,13 +69,18 @@ The document will provide an overview of the system in the first section; then e
         - Whether they are on a team project or contributors.
     - Testers
         - Use SRS to develop validation tests for the system.
+    - Addicted Users
+        - people who uses the phone a lot.
 ### Revision history
 Version | Author | Description | Data
 -------------|--------------|-------------|-------------
-|0.1.0 | whole team | initial | 14-10-2022
+|0.1.0 | whole team | Initial idea | 14-10-2022
 |0.1.1 | whole team | CRC Cards | 29-10-2022
 |0.1.2 | whole team | Class Diagram | 11-11-2022
 |0.1.3 | whole team | Server/Client ERDs | 12-11-2022
+|0.1.4 | whole team | Start Implementaion | 25-11-2022
+|0.1.5 | whole team | Use-Case Diagram | 5-12-2022
+|0.1.6 | whole team | Data Flow Diagram | 8-12-2022
 
 ## Introduction
 ### Purpose
