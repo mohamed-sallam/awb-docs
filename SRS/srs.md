@@ -81,6 +81,7 @@ Version | Author | Description | Data
 |0.1.4 | whole team | Start Implementaion | 25-11-2022
 |0.1.5 | whole team | Use-Case Diagram | 5-12-2022
 |0.1.6 | whole team | Data Flow Diagram | 8-12-2022
+|0.1.7 | whole team | - Update SRS document <br> - Update CRC cards <br> - Update Class Diagram  <br> - Update Client ERD | 11-12-2022
 
 ## Introduction
 ### Purpose
