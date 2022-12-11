@@ -180,13 +180,13 @@ This document is organized as follows: first, an overview description of **Awb**
 <!--new chapter-->
 ## Functional requirements
 ### Phone locking  
-User can lock his phone (partially or entirely) for a customized amount of time (from 1s to 12h), or more time by accepting a confirmation message.
+User can lock his phone (partially or entirely) for a customized amount of time (from 1m to 24h), or more time by accepting a confirmation message.
 ### Whitelisting 
 User can allow useful app during the detoxing period while locking other time-wasting apps.
 ### Detox schedule
-User can schedule his detoxing periods,and here the user story:
+User can schedule his detoxing periods,and here's the user story:
 1. User enters a period of time (e.g., from 11pm to 8am).
-1. User chooses how many times he want that detoxing period to be repeated, he can make it daily or weekly.
+1. User chooses how many times he want that detoxing period to be repeated (e,g daily or weekly).
 1. User chooses the apps to lock from his app groups, he created before, or create a custom group.
 1. User chooses the devices to lock and choose thier app groups, he wants to block.
 ### Flexibility
