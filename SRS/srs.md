@@ -155,7 +155,7 @@ This document is organized as follows: first, an overview description of **Awb**
 5. Flexibility
 6. App grouping
 7. Devices synchronization
-
+8. Allow user to change wallpaper
 
 ### Constraints
 #### Cultural constraints
