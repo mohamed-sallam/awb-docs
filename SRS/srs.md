@@ -280,28 +280,32 @@ Database access will be wrapped through Object Relation Mapping Framework (JDBC 
 - Application-Database communication will be through TCP/IP Communication on port 1433.
 - Client will access the server through HTTPS protocol. 
 <!--new chapter-->
-## Non-functional Requirements 
+## Non-functional Requirements
 ### General 
 #### Reliability
 Impossible to break the lock even if you restart the phone unlike the other apps so we made it an apps launcher. 
 #### High performance 
-- Low response time
-- Lightweight, fast and minimal
+- High response time.
+- Lightweight, fast and minimal.
 #### Security 
 <!---OL---> 
 1. **Awb** does not collect any data, even metadata, about you in any way with or without your consent.
 1. The exchange of data between server and user is minimal.
 1. Database cannot capture anything used to control devices.
 1. Public and private keys are used in QR code form to provide user authentication. 
-1. HTTPS protocol is used in the exchange of data between client and server which provides a layer of protection through encryption and authentication.    
+1. HTTPS protocol is used in the exchange of data between client and server which provides a layer of protection through encryption and authentication.
 #### Free and open-source
 A free and open-source launcher with no Ads presented so any contributor can review, edit or redistribute the source code and report bugs and security threats if any.
 ### Technologies
+- Android Architecture Jetpack
+- Retrofit android
+- Android api
+- Model-View-ViewModel (MVVM)
 - Build Tool for Java: Gradle
-- Unit Test for Java: JUnit & Mockito 
+- Unit Test for Java: JUnit & Mockito
 - Spring Boot for Server-Side Logic
 - Client-Server Communication: REST APIs
-- Database: PostgreSQL vs MySQL <!--yousef:evaluation-->
+- Database: Room database
 - Build Tool for Qt C++: CMake
 - Unit Test for Qt C++: QtTest, GoogleTest or CppUnit <!--evaluation-->
 <!--new chapter-->
