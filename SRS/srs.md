@@ -182,26 +182,29 @@ This document is organized as follows: first, an overview description of **Awb**
 ## Functional requirements
 ### Phone locking  
 User can lock his phone (partially or entirely) for a customized amount of time (from 1m to 24h), or more time by accepting a confirmation message.
+
 ### Whitelisting 
-User can allow useful app during the detoxing period while locking other time-wasting apps.
+User select apps which will be used during the detox period, others will be locked.
+
 ### Detox schedule
 User can schedule his detoxing periods,and here's the user story:
 1. User enters a period of time (e.g., from 11pm to 8am).
 1. User chooses how many times he want that detoxing period to be repeated (e,g daily or weekly).
 1. User chooses the apps to lock from his app groups, he created before, or create a custom group.
 1. User chooses the devices to lock and choose thier app groups, he wants to block.
-### Flexibility
-**Awb** is a tool (flexible to some extent) to help users be wise and careful with their time, so a special warning is displayed for important (built-in) applications (except settings app) and user can add/remove from this group.
 
 ### App grouping
 User can create a group of apps with a name to be treated as one app (in usage time) i.e., social media apps, studying apps ... etc.
 
-### Synchronization
+### Link multiple devices
 User can lock all synchronized devices with only one click.
+
 ### Allow users to change wallpaper
 The program is an Apps launcher like others but with Digital Detoxing features, so we allow user to change his wallpaper.
+
 ### Group therapy 
 Allow a group of users to be the observers of one another, the individual access is monitored by the group for each one in this group, so each User has a partner to help him throughout his detoxing journey.
+
 ## Interface Requirements
 ### User interfaces
 - UI: Figma.
