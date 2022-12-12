@@ -202,10 +202,8 @@ User can lock all synchronized devices with only one click.
 ### Allow users to change wallpaper
 The program is an Apps launcher like others but with Digital Detoxing features, so we allow user to change his wallpaper.
 
-### Group therapy 
-Allow a group of users to be the observers of one another, the individual access is monitored by the group for each one in this group, so each User has a partner to help him throughout his detoxing journey.
-
 ## Interface Requirements
+
 ### User interfaces
 - UI: Figma.
 - UX: simple and minimal.
@@ -276,6 +274,7 @@ Allow a group of users to be the observers of one another, the individual access
 
 ### Software interfaces
 Database access will be wrapped through Object Relation Mapping Framework (JDBC Framework).
+
 ### Communications interfaces 
 #### Database communication
 - Application-Database communication will be through TCP/IP Communication on port 1433.
