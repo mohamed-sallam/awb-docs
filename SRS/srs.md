@@ -70,7 +70,7 @@ The document will provide an overview of the system in the first section; then e
     - Testers
         - Use SRS to develop validation tests for the system.
 ### Revision history
-Version | Author | Description | Data
+Version | Author | Description | Date
 -------------|--------------|-------------|-------------
 |0.1.0 | whole team | initial | 14-10-2022
 |0.1.1 | whole team | CRC Cards | 29-10-2022
