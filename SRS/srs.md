@@ -332,7 +332,7 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 </center>
 <center>
     <figure class="image">
-        <img src="imgs/CRC.png">
+        <img src="imgs/Updated-CRC.png">
         <figcaption>
                 CRC Cards
         </figcaption>
