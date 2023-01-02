@@ -300,7 +300,7 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 ## System Models and Diagrams 
 <center>
     <figure class="image">
-        <img src="imgs/Use-Case Diagram.jpg">
+        <img src="imgs/Updated Use-Case.png">
         <figcaption>
                 Use-Case Diagram
         </figcaption>
