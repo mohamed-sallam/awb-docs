@@ -76,6 +76,7 @@ Version | Author | Description | Date
 |0.1.1 | whole team | CRC Cards | 29-10-2022
 |0.1.2 | whole team | Class Diagram | 11-11-2022
 |0.1.3 | whole team | Server/Client ERDs | 12-11-2022
+|0.1.4 | whole team | Sequence Diagrams | 2-1-2023
 
 ## Introduction
 ### Purpose
