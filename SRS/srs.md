@@ -378,6 +378,14 @@ A free and open-source launcher with no Ads presented so any contributor can rev
         </figcaption>
     </figure>
 </center>
+<center>
+    <figure class="image">
+        <img src="imgs/Sequence Diagram Add App to group whitelist & Remove Group & Delete Group.PNG">
+        <figcaption>
+                Sequence Diagram Add App to group whitelist & Remove Group & Delete Group
+        </figcaption>
+    </figure>
+</center>
 ## System Evolution
 - The application shall work on new versions of OSs (Unix, Android and Windows).
 - The application shall run on new versions of hardware devices. 
