@@ -76,7 +76,8 @@ Version | Author | Description | Date
 |0.1.1 | whole team | CRC Cards | 29-10-2022
 |0.1.2 | whole team | Class Diagram | 11-11-2022
 |0.1.3 | whole team | Server/Client ERDs | 12-11-2022
-|0.1.4 | whole team | Sequence Diagrams | 2-1-2023
+|0.1.4 | whole team | Client ERDs | 11-12-2022
+|0.1.5 | whole team | Sequence Diagrams | 2-1-2023
 
 ## Introduction
 ### Purpose
@@ -301,7 +302,7 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 ## System Models and Diagrams 
 <center>
     <figure class="image">
-        <img src="imgs/Use-Case Diagram.jpg">
+        <img src="imgs/Updated Use-Case.png">
         <figcaption>
                 Use-Case Diagram
         </figcaption>
@@ -333,7 +334,7 @@ A free and open-source launcher with no Ads presented so any contributor can rev
 </center>
 <center>
     <figure class="image">
-        <img src="imgs/CRC.png">
+        <img src="imgs/Updated-CRC.png">
         <figcaption>
                 CRC Cards
         </figcaption>
