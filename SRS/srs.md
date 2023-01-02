@@ -70,13 +70,14 @@ The document will provide an overview of the system in the first section; then e
     - Testers
         - Use SRS to develop validation tests for the system.
 ### Revision history
-Version | Author | Description | Data
+Version | Author | Description | Date
 -------------|--------------|-------------|-------------
 |0.1.0 | whole team | initial | 14-10-2022
 |0.1.1 | whole team | CRC Cards | 29-10-2022
 |0.1.2 | whole team | Class Diagram | 11-11-2022
 |0.1.3 | whole team | Server/Client ERDs | 12-11-2022
 |0.1.4 | whole team | Client ERDs | 11-12-2022
+|0.1.5 | whole team | Sequence Diagrams | 2-1-2023
 
 ## Introduction
 ### Purpose
@@ -360,6 +361,30 @@ A free and open-source launcher with no Ads presented so any contributor can rev
         <img src="imgs/Client_ERD.png">
         <figcaption>
                 Client-Side ERD
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/Sequence Diagram LockPhone & ChooseGroup & DetoxPeriod.PNG">
+        <figcaption>
+                Sequence Diagram LockPhone & ChooseGroup & DetoxPeriod
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/Sequence Diagram Add Group.PNG">
+        <figcaption>
+                Sequence Diagram Add Group
+        </figcaption>
+    </figure>
+</center>
+<center>
+    <figure class="image">
+        <img src="imgs/Sequence Diagram Add App to group whitelist & Remove Group & Delete Group.PNG">
+        <figcaption>
+                Sequence Diagram Add App to group whitelist & Remove Group & Delete Group
         </figcaption>
     </figure>
 </center>
