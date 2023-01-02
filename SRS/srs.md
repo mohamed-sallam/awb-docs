@@ -342,10 +342,19 @@ A free and open-source launcher with no Ads presented so any contributor can rev
     <figure class="image">
         <img src="imgs/awb_class_diagram.png">
         <figcaption>
-                Class Diagram
+                Class Diagram (Design)
         </figcaption>
     </figure>
 </center>
+<center>
+    <figure class="image">
+        <img src="imgs/Class Diagram.png">
+        <figcaption>
+                Class Diagram (implementation)
+        </figcaption>
+    </figure>
+</center>
+
 <center>
     <figure class="image">
         <img src="imgs/Server_ERD.png">
